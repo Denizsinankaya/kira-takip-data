@@ -1,5 +1,9 @@
 {
   "source": "TÜİK TÜFE (EVDS TP.FG.J0), 12 aylık ortalamalara göre değişim",
   "updatedAt": "1970-01-01T00:00:00Z",
-  "series": {}
+  "series": {},
+  "meta": {
+    "revaluation": {},
+    "rentExemption": {}
+  }
 }

@@ -9,3 +9,10 @@ Guncelleme (ana repodan):
     cd ../kira-takip-data && git commit -am "TUFE guncelle" && git push
 
 Bu repo kasitli olarak public: uygulama anahtar olmadan okur. Icinde kisisel veri yoktur.
+
+## meta bolumu (elle)
+
+- `meta.revaluation.<yil>`: yeniden degerleme orani (%). Kaynak: Resmi Gazete / GIB genel tebligi. Aidat artis tavani icin.
+- `meta.rentExemption.<yil>`: konut kira geliri istisnasi (TL), gelir yili bazinda. Kaynak: GIB. Beyanname yardimcisi icin.
+
+Bos birakilan yil icin uygulama o ozelligi sessizce gizler; uydurma rakam yazma.

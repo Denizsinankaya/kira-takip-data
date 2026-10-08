@@ -16,3 +16,7 @@ Bu repo kasitli olarak public: uygulama anahtar olmadan okur. Icinde kisisel ver
 - `meta.rentExemption.<yil>`: konut kira geliri istisnasi (TL), gelir yili bazinda. Kaynak: GIB. Beyanname yardimcisi icin.
 
 Bos birakilan yil icin uygulama o ozelligi sessizce gizler; uydurma rakam yazma.
+
+- `meta.rentIndexYoY.<plaka|TR>`: TCMB Yeni Kiraci Kira Endeksi yillik degisimi (%), il bazinda; `TR` Turkiye geneli.
+- `meta.rentIndexMeta.year` / `.month`: endeksin donemi.
+  Kaynak: EVDS > Konut Fiyat Endeksi > Yeni Kiraci Kira Endeksi (Subat 2026'dan itibaren). Seri kodlari EVDS'de dogrulandiktan sonra tool/update_cpi.dart'a eklenecek.
